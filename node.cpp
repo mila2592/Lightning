@@ -1,4 +1,4 @@
-#include "node.h"
+#include "model-node.h"
 #include <iostream>
 #include <random>
 

@@ -2,13 +2,13 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include <node.h>
+#include <model-node.h>
 #include <QGL>
 #include <QtOpenGL>
 
 #include "GL/gl.h"
 #include "GL/glu.h"
-#include "GL/glaux.h"
+//#include "GL/glaux.h"
 
 
 
@@ -21,7 +21,7 @@ class MainWindow : public QMainWindow
     Q_OBJECT
 
 public:
-    void WINAPI  display(void);
+    void /*WINAPI*/  display(void);
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
 
