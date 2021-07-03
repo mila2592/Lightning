@@ -21,6 +21,12 @@ class MainWindow : public QMainWindow
     Q_OBJECT
 
 public:
+
+
+Node* node;
+Link* links;
+ std::set<Link*> graph_links;
+
     void /*WINAPI*/  display(void);
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
